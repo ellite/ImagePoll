@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Images Poll - jQuery / PHP Plugin</title>
+<link rel="icon" type="image/png" href="img/logosmall.png">
+<link rel="shortcut icon" href="img/logosmall.png" type="image/png">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+</head>
+
+<body>
+
+<div id="page">
+    <div class="title">Which Logo do you prefer?</div>
+    <div class="container">
+        <div class="gallery">
+            <img src="img/select.png" id="visImg">
+        </div>
+        <div class="thumbnails" >
+            <div class="thumb" onclick="javascript:changeLogo('1');">
+            	<div class="graph">
+                	<div class="ingraph graph1"></div>
+                </div>
+                <img src="img/logos/1.jpg">
+            </div>
+            <div class="thumb" onclick="javascript:changeLogo('2');">
+            	<div class="graph">
+                	<div class="ingraph graph2"></div>
+                </div>
+                <img src="img/logos/2.jpg">
+            </div>
+            <div class="thumb" onclick="javascript:changeLogo('3');">
+            	<div class="graph">
+                	<div class="ingraph graph3"></div>
+                </div>
+                <img src="img/logos/3.jpg">
+            </div>
+            <div class="thumb" onclick="javascript:changeLogo('4');">
+            	<div class="graph">
+                	<div class="ingraph graph4"></div>
+                </div>
+                <img src="img/logos/4.jpg">
+            </div>
+            <div class="thumb" onclick="javascript:changeLogo('5');">
+            	<div class="graph">
+                	<div class="ingraph graph5"></div>
+                </div>
+            	<img src="img/logos/5.jpg">
+            </div>
+            <div class="thumb" onclick="javascript:changeLogo('6');">
+            	<div class="graph">
+                	<div class="ingraph graph6" style="background-color: lightblue;"></div>
+                </div>
+                <img src="img/logos/6.jpg">
+            </div>
+        </div>
+        <div class="poll">
+            <div class="hint">Select your favorite logo, insert your email and submit. Max 3 votes.</div>
+            <form method="post" id="voteForm">
+                <input type="hidden" id="option" name="option" value=""/>
+                <input type="text" id="email" name="email" value="email" onclick="$(this).val('');"/>
+                <input type="submit" value="Submit" id="submitButton"/>
+            </form>
+            <div class="results">
+            	<div class="error"></div>
+                <a href="javascript:getResults();" title="View Poll Results">Get Results</a>
+            </div>
+    </div>
+</div>
+
+<script src="scripts/jquery-1.4.3.min.js"></script>
+<script src="scripts/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#eee;
+	background-color: #1b1b1c;
+	font:15px Calibri,Arial,sans-serif;
+	border-top:5px solid #212121;
+}
+
+#page{
+	width:330px;
+	margin:70px auto 0px;
+	margin-top: 30px;
+}
+
+#page form{
+	background-color:#181819;
+	display:block;
+	height:31px;
+	padding:10px;
+	position:relative;
+	width:auto;
+	margin-left:-7px;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+#email{
+	background:url('../img/submit_form.png') no-repeat;
+	border:none;
+	color:#888888;
+	height:31px;
+	left:10px;
+	line-height:31px;
+	padding-left:8px;
+	position:absolute;
+	text-shadow:1px 1px 0 #FFFFFF;
+	top:10px;
+	width:215px;
+	outline:none;
+}
+
+#submitButton{
+	background:url('../img/submit_form.png') no-repeat right top;
+	border:none;
+	cursor:pointer;
+	height:31px;
+	left:236px;
+	line-height:31px;
+	position:absolute;
+	text-indent:-99999px;
+	text-transform:uppercase;
+	top:10px;
+	width:96px;
+}
+
+#submitButton:hover{
+	background-position:right bottom;
+}
+
+/* Page Styles */
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	border-bottom:1px dotted #97cae6;
+	color:#97cae6;
+}
+
+a:hover{
+	border-bottom:1px dashed transparent;
+}
+
+.clear{
+	clear:both;
+}
+
+.thumb {
+	float: left;
+	cursor: pointer;
+	position: relative;	
+}
+
+.thumb img {
+	width: 44px;
+	max-width: 44px;
+	margin: 3px;
+}
+
+.thumbnails {
+	clear: both;
+	height: 35px;
+}
+
+.title {
+	font-size: 26px;
+	margin-bottom: 40px;
+}
+
+.container {
+	background-color: #181819;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.gallery {
+	width: 300px;
+}
+
+#visImg {
+	max-width: 100%;
+}
+
+.graph {
+	height: 150px;
+	position: absolute;
+	width: 25px;
+	bottom: 43px;
+	left: 12px;
+}
+
+.poll {
+	position: relative;
+}
+
+.ingraph {
+	height: 0%;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+.graph1 { background-color: #333; }
+.graph2 { background-color: blue; }
+.graph3 { background-color: green; }
+.graph4 { background-color: yellow; }
+.graph5 { background-color: pink; }
+.graph6 { background-color: lightblue; }
+
+#voteForm {
+	position: relative;
+	clear: both;
+	width: auto;	
+}
+
+#voteForm #email {
+	width: 194px;
+}
+
+#voteForm #submitButton {
+	left: 212px;
+}
+
+.results {
+	text-align: right;
+	margin-right: 11px;
+}
+
+.error {
+	float: left;
+}
