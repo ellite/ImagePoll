@@ -6,7 +6,7 @@ jQuery/PHP Poll for Images.
 Demo @ <a href="http://henrique.pt/work/demos/poll/" title="ImagePoll Demo">ImagePoll</a>
 
 
-By:
+By:<br>
 <img src = "http://henrique.pt/images/logo.png" border = "0">
 
 Usage:
