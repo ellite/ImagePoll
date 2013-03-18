@@ -7,7 +7,7 @@ Demo @ <a href="http://henrique.pt/work/demos/poll/" title="ImagePoll Demo">Imag
 
 
 By:<br>
-<img src = "http://henrique.pt/images/logo.png" border = "0">
+<a href="http://henrique.pt"><img src = "http://henrique.pt/images/logo.png" border = "0"></a>
 
 Usage:
 
